@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 import css from './Statistics.module.css';
 import { RiEmotionHappyFill } from "react-icons/ri";
 import { MdOutlineSentimentNeutral } from "react-icons/md";
-import { FasadTear } from "react-icons/fa";
+import { FaSadTear } from "react-icons/fa";
 
 export const Statistics = ({
     good,
@@ -22,7 +22,7 @@ export const Statistics = ({
                 <span className={css.value}>{neutral}</span>
             </p>
             <p className={css.labelStat}>
-                <FasadTear className={css.icons} /> Bad:
+                <FaSadTear className={css.icons} /> Bad:
                 <span className={css.value}>{bad}</span>
             </p>
             <p className={css.labelStat}>
